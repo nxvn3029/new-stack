@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="text">java script</h1>
+    <button onclick="handlebuttonclick()">click me!!</button>
+    <script>
+        function handlebuttonclick() {
+            console.log("button clicked")
+            const result= document.querySelector("#text")
+            result.innerHTML=result.innerHTML==="hello 911"?"hello yokesh!!":"911"
+        }
+    </script>
+</body>
+</html>
